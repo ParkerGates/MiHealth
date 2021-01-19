@@ -1,0 +1,102 @@
+/*General***************************************************/
+body { background-image: url(../images/light_noise_diagonal.png) }
+body, nav, main {
+    margin: 0px;
+    font-family: 'Archivo Black';
+}
+p {
+    color: black;
+    font-size: 1vw;
+    line-height: 30px;
+}
+h1 {
+    font-size: 4vw; line-height: 1;
+    margin: 0px; padding: 0px 0px 10px;
+}
+ul, li { display: inline; }
+
+/*Nav*******************************************************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    padding: 1% 8% 1% 5%;
+}
+#logo { font-size: 30px;}
+a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+/*Main******************************************************/
+main { padding: 5% 5% 0px }
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+#BeHealthy {
+    display: inline-block;
+    width: 26%;
+    margin-right: 2%;
+}
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    width: 23%;
+    height: 30vw;
+    overflow: hidden;
+}
+img { 
+    height: 200px; 
+    width: 200px; 
+    opacity: 0.0;
+}
+#image1 {
+    background-image: url(../images/appleBreakfast.jpg);
+    background-size: 21vw;
+    background-repeat: no-repeat;
+    background-position: 0vw -1.2vw;
+}
+#image2 {
+    background-image: url(../images/pastaSalad.jpg);
+    background-size: 21vw;
+    background-repeat: no-repeat;
+    background-position: 0vw -.8vw;
+}
+#image3 {
+    background-image: url(../images/shrimp.jpg);
+    background-size: cover;
+    background-position: -2.2vw 0vw;
+}
+
+/*TextContainer*********************************************/
+.whiteContainer {
+    background-color: white;
+    padding: 12px 14px;
+    float: right;
+}
+.greenContainer {
+    display: block;
+    clear: both;
+    background-color: #33cc33;
+    margin-top: 10px;
+    padding: 12px 14px;
+    text-align: right;
+}
+.textContainer {
+    display: inline-block;
+    width: 160px;
+    z-index: 1;
+
+}
+
+
+
+
